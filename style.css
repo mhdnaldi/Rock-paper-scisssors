@@ -1,0 +1,294 @@
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+body {
+  line-height: 1;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+nav ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none;
+}
+
+/* change colours to suit your needs */
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+abbr[title],
+dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* change border colour to suit your needs */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+input,
+select {
+  vertical-align: middle;
+}
+
+body {
+  background-color: #111;
+}
+
+h1 {
+  font-size: 40px;
+  text-align: center;
+  margin: 50px;
+  color: brown;
+}
+
+.container {
+  width: 80%;
+  margin: 50px auto;
+  background-color: #111;
+}
+
+.comp {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  position: relative;
+  background-color: aqua;
+  margin-bottom: 10px;
+  padding: 50px;
+  box-sizing: border-box;
+  border-radius: 40px 40px 0 0;
+}
+
+.comp-score {
+  position: absolute;
+  padding: 20px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: pink;
+  border: 1px solid black;
+  border-radius: 40px 5px 5px 5px;
+  background-color: black;
+  left: 10px;
+  top: 8px;
+}
+
+.your-score {
+  position: absolute;
+  padding: 20px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: pink;
+  border: 1px solid black;
+  border-radius: 5px 5px 40px 5px;
+  background-color: black;
+  left: 10px;
+  top: 8px;
+}
+
+.pil-comp {
+  transition: 0.3s;
+}
+
+.pil-comp:hover {
+  border-color: blueviolet;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+}
+
+.info {
+  width: 15%;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  color: tomato;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 3px;
+  background-color: white;
+  border: 2px solid tomato;
+  border-radius: 40px;
+  position: absolute;
+  z-index: 2;
+  left: 42%;
+  top: 372px;
+  box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.5);
+}
+
+.area-player {
+  width: 80%;
+  display: flex;
+  margin: auto;
+  justify-content: space-around;
+  justify-items: center;
+  position: relative;
+  background-color: indigo;
+  border-radius: 0 0 40px 40px;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li {
+  display: inline-block;
+  padding: 50px;
+}
+
+ul li img {
+  transition: 0.3s;
+}
+
+ul li img:hover {
+  border-color: aqua;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+}
+
+img {
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  /* padding: 50px; */
+  border-radius: 50%;
+  border: 5px solid black;
+}
+
+.rock,
+.paper,
+.scissors {
+  transition: 0.3;
+}
